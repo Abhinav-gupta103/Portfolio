@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
 import HeroImg from '../components/HeroImg';
+import Footer from '../components/Footer';
 import React from 'react'
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Navbar />
             <HeroImg />
+            <Footer />
         </div>
     );
 };
